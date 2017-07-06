@@ -1,0 +1,12 @@
+<!--pages/collection/collection.wxml-->
+<import src="collection-item/collection-item-template.wxml" />
+  <view class="collection-container">
+    <image src='./../../images/icon/add.png' class="icon-add"></image>
+    <text class='collection-tag'>新建标签</text>
+  </view>
+
+<view wx:for="{{collections}}" wx:for-index="idx" wx:for-item="item" class="container">
+  <view class = "collection-item" catchtap="onPostTap" data-postId="{{item.postId}}" >
+       <template is="collectionItem" data="{{...item}}"/>
+  </view>
+</view>

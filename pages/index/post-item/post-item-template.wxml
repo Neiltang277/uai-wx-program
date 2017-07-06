@@ -1,0 +1,6 @@
+<template name="postItem">
+  <view class="post-container">
+    <text class="post-title">{{title}}</text>
+    <text class="post-date">{{date}}</text>
+  </view>
+</template>

@@ -1,0 +1,21 @@
+.post-container{
+    flex-direction:column;
+    display:flex;
+    margin:10rpx 20rpx;
+    background-color:#fff;
+    border: 1px solid #ededed;
+    border-radius: 20rpx;
+    padding: 25rpx 40rpx;
+}
+
+.post-date{
+    font-size: 18rpx;
+    color: #5884BB;
+    vertical-align: middle;
+}
+.post-title{
+    font-size:48rpx;
+    font-weight: 600;
+    color:#333;
+    margin-bottom: 20rpx;
+}

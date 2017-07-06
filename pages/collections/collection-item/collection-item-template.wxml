@@ -1,0 +1,11 @@
+<template name="collectionItem">
+  <view class="collection-container">
+    <view>
+      <image src='./../../../images/icon/collection.png' class='icon-collection'></image>
+    </view>
+    <view class = "collection-content">
+      <text class="collection-title">{{title}}</text>
+      <text class="collection-count">{{count}} 条资源</text>
+    </view>
+  </view>
+</template>

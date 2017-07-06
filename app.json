@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/my/my",
+    "pages/collections/collections",
+    "pages/logs/logs",
+    "pages/index/post-detail/post-detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#E6E9EF",
+    "navigationBarTitleText": "WizNas",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "position":"bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "收集",
+        "iconPath": "images/tab/document.png",
+        "selectedIconPath": "images/tab/document_selected.png"
+      },
+      {
+        "pagePath": "pages/collections/collections",
+        "text": "口袋",
+        "iconPath": "images/tab/folder.png",
+        "selectedIconPath": "images/tab/folder_selected.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我",
+        "iconPath": "images/tab/profile.png",
+        "selectedIconPath": "images/tab/profile_selected.png"
+      }
+    ]
+  }
+}

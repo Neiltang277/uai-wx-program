@@ -1,0 +1,35 @@
+<!--index.wxml-->
+<import src="post-item/post-item-template.wxml" />
+  <view wx:if="{{postList.length > 0}}" >
+    <view wx:for="{{postList}}" wx:for-index="idx" wx:for-item="item" class="container">
+      <view class = "post-item" catchtap="onPostTap" data-postId="{{item.postId}}" >
+           <template is="postItem" data="{{...item}}"/>
+      </view>
+    </view>
+  </view>
+  <view wx:else class='blank-container'>
+    <view class='blank-content'>
+      <image src='./../../images/prompt/blank.png' class='prompt'></image>
+      <view>
+        <ul>
+          <li>添加“WizNas助手”</li>
+          <li>为微信好友，并绑定账号</li>
+          <li>请长按下面的微信号复制</li>
+          <li>↓</li>
+        </ul>
+      </view>
+      <view>
+        <text class='wechat-helper'>kimtang277</text>
+        </view>
+    </view>
+
+  </view>
+
+
+
+  <!-- <block wx:for="{{postList}}" wx:for-item="item" wx:for-index="idx"> -->
+        <!--//template-->
+        <!-- <view class = "post-item" catchtap="onPostTap" data-postId="{{item.postId}}" >
+             <template is="postItem" data="{{...item}}"/>
+        </view>
+  </block> -->

@@ -1,0 +1,50 @@
+/**index.wxss**/
+@import "post-item/post-item-template.wxss";
+
+.container{
+  width:100%;
+}
+
+.post-item{
+  width:100%;
+}
+
+.blank-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.blank-content{
+  height:1024rpx;
+  width: 95%;
+  margin:10rpx 0;
+  background-color:#fff;
+  border: 1px solid #ededed;
+  border-radius: 20rpx;
+  padding: 25rpx 0;
+}
+
+.prompt{
+  width:400rpx;
+  height:400rpx;
+  margin: 80rpx 0;
+}
+
+.wechat-helper{
+  background-color: #ededed;
+  padding:10rpx;
+  border-radius: 10rpx;
+  width: 100%;
+  margin-top: 80rpx;
+}
+
+ul{
+  font-size:32rpx;
+}
+li{
+  display: block;
+}
+li+li{
+  margin:24rpx;
+}

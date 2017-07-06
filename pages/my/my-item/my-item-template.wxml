@@ -1,0 +1,6 @@
+<template name="myItem">
+  <view class="my-container">
+    <text class="my-title">{{title}}</text>
+    <text class="my-date">{{date}}</text>
+  </view>
+</template>

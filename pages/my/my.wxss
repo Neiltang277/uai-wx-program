@@ -1,0 +1,80 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20rpx 0;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.my-container{
+    flex-direction:column;
+    display:flex;
+    align-items: center;
+    margin:10rpx 20rpx;
+    background-color:#fff;
+    border: 1px solid #ededed;
+    border-radius: 20rpx;
+    padding: 25rpx 15rpx;
+    vertical-align: middle;
+}
+
+.my-item{
+  margin:20rpx 20rpx;
+  flex-direction:row;
+  display:flex;
+  background-color:#fff;
+  border: 1px solid #ededed;
+  border-radius: 20rpx;
+  padding: 25rpx 15rpx;
+  vertical-align: middle;
+}
+
+.bind-robot{
+  padding: 0rpx 20rpx;
+  width: 85%;
+  font-size: 32rpx;
+}
+
+.icon-right{
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: middle;
+
+}
+.icon-contact{
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.contact-helper{
+  flex-direction:column;
+  display:flex;
+  margin-top: 50rpx;
+}
+
+.btn-contact{
+  background: transparent;
+  flex-direction:column;
+  display:flex;
+  font-size: 24rpx;
+  align-items: center;
+
+}
+.btn-contact:after{
+  border: 0rpx;
+}

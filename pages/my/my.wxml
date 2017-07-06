@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="my-container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+</view>
+<view class="my-item">
+  <text class='bind-robot'>绑定机器人</text>
+  <image class="icon-right" src="./../../images/icon/right.png"></image>
+</view>
+<view class='contact-helper'>
+
+  <button open-type="contact" class='btn-contact'>
+    <image class="icon-contact" src="./../../images/icon/contact.png"></image>
+    <text>联系我们</text>
+  </button>
+
+</view>
